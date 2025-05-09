@@ -8,7 +8,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 
 # Set Groq API Key
-os.environ["GROQ_API_KEY"] = "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"  # Replace with your key
+os.environ["GROQ_API_KEY"] = "API_KEY"  # Replace with your key
 
 # --- Extract text from PDF ---
 def extract_text_from_pdf(pdf_file):
